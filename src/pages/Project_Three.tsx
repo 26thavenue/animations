@@ -1,3 +1,5 @@
+// Sticky Footer
+
 import { Footer,Intro } from "../components/Project_Three"
 import { useEffect } from "react";
 import Lenis from 'lenis';
