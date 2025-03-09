@@ -4,6 +4,7 @@ import ProjectTwo from "./pages/Project_Two";
 import Project_Three from "./pages/Project_Three";
 import Project_Four from "./pages/Project_Four";
 import Floating from "./pages/Floating"
+import LineAnimation from "./pages/LineAnimation"
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/three" element={<Project_Three />} />
         <Route path="/four" element={<Project_Four />} />
         <Route path="/floating" element={<Floating />} />
+        <Route path="/line" element={<LineAnimation />} />
       </Routes>
     </Router>
   );
